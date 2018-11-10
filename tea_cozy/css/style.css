@@ -1,0 +1,137 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+
+}
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  background-color: inherit;
+  flex-direction: row
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+
+}
+.logo img{
+padding-right:10px;
+flex-grow: 2;
+text-align: left;
+height: 50px;
+}
+a {
+  text-decoration: underline;
+  color: seashell;
+
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  align-self: flex-end;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  flex-direction: row;
+
+  background-image: url("../images/img-mission-background.jpg");
+}
+.text-mission {
+  background-color: black;
+  width: 1200px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 1000px;
+
+}
+.content >.three-images {
+display: inline-flex;
+justify-content: center;
+flex-direction: row;
+}
+
+.content >.three-images > .image {
+  margin: 10px 20px;
+}
+
+.content > .text-month {
+align-self: flex-start;
+}
+.content > .two-images {
+display:flex;
+justify-content: center;
+flex-direction: row;
+
+}
+.content > .two-images >.image {
+  margin: 10px 20px;
+}
+
+.locations {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+
+}
+
+  .locations > .adresses > .adress {
+  text-align: center;
+  align-self: flex-end;
+  background-color: black;
+  letter-spacing: -1px;
+  width: 300px;
+  line-height: 1,5;
+  margin: 15px 40px;
+}
+
+.locations > .adresses {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+}
+  footer {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+
+}
+footer .info {
+  align-self: center;
+  text-align: center;
+}
+ footer .copyright {
+   padding-left: 20px;
+   text-align: left;
+  align-self: flex-end;
+  margin: 0 auto;
+ }
